@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "OCR A Extended";
+    src: url("//db.onlinewebfonts.com/t/f2ecc6ef740fcf60de095b0b087dd58d.eot");
+    src: url("//db.onlinewebfonts.com/t/f2ecc6ef740fcf60de095b0b087dd58d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f2ecc6ef740fcf60de095b0b087dd58d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f2ecc6ef740fcf60de095b0b087dd58d.woff") format("woff"), url("//db.onlinewebfonts.com/t/f2ecc6ef740fcf60de095b0b087dd58d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f2ecc6ef740fcf60de095b0b087dd58d.svg#OCR A Extended") format("svg");
+}
+
+div.receipt {border: 1px solid black;
+    font-family: "OCR A Extended";
+    max-width: 300px;
+    margin: 1rem auto;padding: 1rem;
+}
+
+h2,
+h3 {
+    font-weight: normal;
+    text-align: center;
+    margin: .5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.items {
+    margin-top: 2rem;
+    padding-inline-start: 0;
+}
+
+ul.items li {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.ending {
+    text-align: right;
+}
