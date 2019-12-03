@@ -11,7 +11,7 @@ const Receipt = ({ receipt }) => {
       <p className="date">Date: {receipt.date}</p>
       <ul className="items">
         {receipt.items.map(item => (
-          <li>
+          <li key={item.name}>
             <span>{item.name}</span>
             <span>
               {receipt.currency}

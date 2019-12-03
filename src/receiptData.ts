@@ -80,9 +80,9 @@ export default [
   {
     storeName: "Hylian Bazaar",
     location: "Town Marketplace, Hyrule Castle",
-    date: "11/21/1988",
+    date: "11/23/1998",
     currency: "₹",
-    items: [{ name: "Hylian Shield (x1)", price: 1000 }]
+    items: [{ name: "Hylian Shield (x1)", price: 80 }]
   },
   {
     storeName: "Trusty Patches",
@@ -103,7 +103,8 @@ export default [
     items: [
       { name: "Steel Pickaxe (x1)", price: 400 },
       { name: "Diamond Sword (x1)", price: 1000 },
-      { name: "Redstone Block (x10)", price: 1000 }
+      { name: "Redstone Block (x10)", price: 1000 },
+      { name: "Cobblestone (x64)", price: 1600 }
     ]
   },
   {
