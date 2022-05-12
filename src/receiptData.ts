@@ -82,7 +82,9 @@ export default [
     location: "Town Marketplace, Hyrule Castle",
     date: "11/23/1998",
     currency: "₹",
-    items: [{ name: "Hylian Shield (x1)", price: 80 }]
+    items: [{ name: "Hylian Shield", price: 80 },
+    { name: "Deku Nuts (x5)", price: 15 },
+    { name: "Goron Tunic", price: 200 }]
   },
   {
     storeName: "Trusty Patches",
@@ -113,9 +115,9 @@ export default [
     date: "10/31/2008",
     currency: "caps x",
     items: [
-      { name: "Bottlecap Mine (x1)", price: 400 },
-      { name: "Vault Suit (x1)", price: 200 },
-      { name: "Fat Man (x1)", price: 1000 }
+      { name: "Stimpaks (x5)", price: 125 },
+      { name: "Laser Pistol", price: 320 },
+      { name: "RobCo Jumpsuit", price: 6 }
     ]
   },
   {
