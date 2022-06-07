@@ -26,6 +26,18 @@ export default [
     ]
   },
   {
+    storeName: "UAC Commissary",
+    location: "Phobos",
+    date: "12/10/1993",
+    currency: "$",
+    items: [
+      { name: "Plasma Gun", price: 400 },
+      { name: "Chainsaw", price: 300 },
+      { name: "BFG 9000", price: 1000 },
+      { name: "Rocket Launcher", price: 500 }
+    ]
+  },
+  {
     storeName: "Forge Mart",
     location: "Sandtrap",
     date: "11/27/2001",
