@@ -1,5 +1,20 @@
 export default [
   {
+    storeName: "Matt's General Store",
+    location: "Independence, MO",
+    date: "12/3/1971",
+    currency: "$",
+    items: [
+      { name: "Oxen (x12)", price: 240 },
+      { name: "Sets of Clothing (x20)", price: 200 },
+      { name: "Boxes of Bullets (x50)", price: 100 },
+      { name: "Spare Wagon Wheels (x2)", price: 20 },
+      { name: "Spare Wagon Tongues (x2)", price: 20 },
+      { name: "Spare Wagon Axles (x2)", price: 20 },
+      { name: "Pounds of Food (x2000)", price: 400 }
+    ]
+  },
+  {
     storeName: "Pokemart",
     location: "Viridian City, Kanto Region",
     date: "02/27/1996",
