@@ -1,5 +1,6 @@
 export default [
   {
+    answer: "Oregon Trail (Apple ][)",
     storeName: "Matt's General Store",
     location: "Independence, MO",
     date: "12/3/1971",
@@ -15,6 +16,7 @@ export default [
     ]
   },
   {
+    answer: "Pokemon (Red/Green/Blue/Yellow)",
     storeName: "Pokemart",
     location: "Viridian City, Kanto Region",
     date: "02/27/1996",
@@ -26,6 +28,7 @@ export default [
     ]
   },
   {
+    answer: "Doom",
     storeName: "UAC Commissary",
     location: "Phobos",
     date: "12/10/1993",
@@ -38,6 +41,7 @@ export default [
     ]
   },
   {
+    answer: "Goldeneye 007",
     storeName: "Q's Lab",
     location: "Vauxhall Cross, London, UK",
     date: "08/25/1997",
@@ -50,6 +54,7 @@ export default [
     ]
   },
   {
+    answer: "HALO",
     storeName: "Forge Mart",
     location: "Sandtrap",
     date: "11/27/2001",
@@ -62,6 +67,7 @@ export default [
     ]
   },
   {
+    answer: "Super Mario Bros",
     storeName: "Toad House",
     location: "World 2-2, Mushroom Kingdom",
     date: "09/13/1985",
@@ -73,6 +79,7 @@ export default [
     ]
   },
   {
+    answer: "Tomb Raider",
     storeName: "Shootem and Stuffem, Outfitters",
     location: "Croft Manor, Essex",
     date: "10/25/1996",
@@ -84,6 +91,7 @@ export default [
     ]
   },
   {
+    answer: "Portal",
     storeName: "Aperture Science Gift Shop",
     location: "REDACTED, REDACTED, USA",
     date: "08/09/2009",
@@ -95,6 +103,7 @@ export default [
     ]
   },
   {
+    answer: "Elder Scrolls V: Skyrim",
     storeName: "Belethor's Supplies",
     location: "Whiterun Hold, Whiterun",
     date: "06/26/2012",
@@ -106,6 +115,7 @@ export default [
     ]
   },
   {
+    answer: "GTA 3",
     storeName: "Ammu-nation",
     location: "Liberty City, USA",
     date: "10/22/2001",
@@ -117,6 +127,7 @@ export default [
     ]
   },
   {
+    answer: "Legend of Zelda: Ocarina of Time",
     storeName: "Hylian Bazaar",
     location: "Town Marketplace, Hyrule Castle",
     date: "11/23/1998",
@@ -126,6 +137,7 @@ export default [
     { name: "Goron Tunic", price: 200 }]
   },
   {
+    answer: "Dark Souls",
     storeName: "Trusty Patches",
     location: "Catacombs, Firelink Shrine",
     date: "09/22/2011",
@@ -137,6 +149,7 @@ export default [
     ]
   },
   {
+    answer: "Minecraft",
     storeName: "Steve's Supplies",
     location: "Gravel Road, Village",
     date: "05/17/2009",
@@ -149,6 +162,7 @@ export default [
     ]
   },
   {
+    answer: "Fallout (3)",
     storeName: "Craterside Supply",
     location: "Megaton, Capital Wasteland",
     date: "10/31/2008",
@@ -160,6 +174,7 @@ export default [
     ]
   },
   {
+    answer: "Deus Ex",
     storeName: "The Smuggler",
     location: "Hell's Kitchen, NYC",
     date: "06/23/2000",
