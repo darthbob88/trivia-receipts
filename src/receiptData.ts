@@ -38,6 +38,18 @@ export default [
     ]
   },
   {
+    storeName: "Q's Lab",
+    location: "Vauxhall Cross, London, UK",
+    date: "08/25/1997",
+    currency: "£",
+    items: [
+      { name: "Golden Gun", price: 400 },
+      { name: "Klobb", price: 200 },
+      { name: "PP7 (Silenced)", price: 400 },
+      { name: "Watch (Laser)", price: 300 }
+    ]
+  },
+  {
     storeName: "Forge Mart",
     location: "Sandtrap",
     date: "11/27/2001",
