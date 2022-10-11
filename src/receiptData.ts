@@ -106,7 +106,7 @@ export default [
     answer: "Elder Scrolls V: Skyrim",
     storeName: "Belethor's Supplies",
     location: "Whiterun Hold, Whiterun",
-    date: "06/26/2012",
+    date: "11/11/2011",
     currency: "septims x",
     items: [
       { name: "Cabbages (x5)", price: 50 },
