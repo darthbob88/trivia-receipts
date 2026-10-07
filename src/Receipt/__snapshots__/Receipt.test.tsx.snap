@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <div
+    class="receipt"
+  >
+    <h2>
+      Matt's General Store
+    </h2>
+    <h3>
+      Independence, MO
+    </h3>
+    <hr />
+    <p
+      class="date"
+    >
+      Date: 
+      12/3/1971
+    </p>
+    <ul
+      class="items"
+    >
+      <li>
+        <span>
+          Oxen (x12)
+        </span>
+        <span>
+          $
+          240
+        </span>
+      </li>
+      <li>
+        <span>
+          Sets of Clothing (x20)
+        </span>
+        <span>
+          $
+          200
+        </span>
+      </li>
+      <li>
+        <span>
+          Boxes of Bullets (x50)
+        </span>
+        <span>
+          $
+          100
+        </span>
+      </li>
+      <li>
+        <span>
+          Spare Wagon Wheels (x2)
+        </span>
+        <span>
+          $
+          20
+        </span>
+      </li>
+      <li>
+        <span>
+          Spare Wagon Tongues (x2)
+        </span>
+        <span>
+          $
+          20
+        </span>
+      </li>
+      <li>
+        <span>
+          Spare Wagon Axles (x2)
+        </span>
+        <span>
+          $
+          20
+        </span>
+      </li>
+      <li>
+        <span>
+          Pounds of Food (x2000)
+        </span>
+        <span>
+          $
+          400
+        </span>
+      </li>
+    </ul>
+    <ul
+      class="ending"
+    >
+      <li>
+        Subtotal: 
+        $
+        1000
+      </li>
+      <li>
+        Tax: 
+        $
+        80
+      </li>
+      <li>
+        Total: 
+        $
+        1080
+      </li>
+    </ul>
+    <h4>
+      Thanks for shopping!
+    </h4>
+    <img
+      alt="barcode"
+      src="https://i.imgur.com/P1u1Wn8.jpg"
+      style="margin: 0px auto; display: block;"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders without crashing renders a Receipt properly 1`] = `
+<div>
+  <div
+    class="receipt"
+  >
+    <h2>
+      Matt's General Store
+    </h2>
+    <h3>
+      Independence, MO
+    </h3>
+    <hr />
+    <p
+      class="date"
+    >
+      Date: 
+      12/3/1971
+    </p>
+    <ul
+      class="items"
+    >
+      <li>
+        <span>
+          Oxen (x12)
+        </span>
+        <span>
+          $
+          240
+        </span>
+      </li>
+      <li>
+        <span>
+          Sets of Clothing (x20)
+        </span>
+        <span>
+          $
+          200
+        </span>
+      </li>
+      <li>
+        <span>
+          Boxes of Bullets (x50)
+        </span>
+        <span>
+          $
+          100
+        </span>
+      </li>
+      <li>
+        <span>
+          Spare Wagon Wheels (x2)
+        </span>
+        <span>
+          $
+          20
+        </span>
+      </li>
+      <li>
+        <span>
+          Spare Wagon Tongues (x2)
+        </span>
+        <span>
+          $
+          20
+        </span>
+      </li>
+      <li>
+        <span>
+          Spare Wagon Axles (x2)
+        </span>
+        <span>
+          $
+          20
+        </span>
+      </li>
+      <li>
+        <span>
+          Pounds of Food (x2000)
+        </span>
+        <span>
+          $
+          400
+        </span>
+      </li>
+    </ul>
+    <ul
+      class="ending"
+    >
+      <li>
+        Subtotal: 
+        $
+        1000
+      </li>
+      <li>
+        Tax: 
+        $
+        80
+      </li>
+      <li>
+        Total: 
+        $
+        1080
+      </li>
+    </ul>
+    <h4>
+      Thanks for shopping!
+    </h4>
+    <img
+      alt="barcode"
+      src="https://i.imgur.com/P1u1Wn8.jpg"
+      style="margin: 0px auto; display: block;"
+    />
+  </div>
+</div>
+`;
