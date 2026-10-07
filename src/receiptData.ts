@@ -1,4 +1,4 @@
-export default [
+export const receiptData = [
   {
     answer: "Oregon Trail (Apple ][)",
     storeName: "Matt's General Store",
@@ -12,8 +12,8 @@ export default [
       { name: "Spare Wagon Wheels (x2)", price: 20 },
       { name: "Spare Wagon Tongues (x2)", price: 20 },
       { name: "Spare Wagon Axles (x2)", price: 20 },
-      { name: "Pounds of Food (x2000)", price: 400 }
-    ]
+      { name: "Pounds of Food (x2000)", price: 400 },
+    ],
   },
   {
     answer: "Pokemon (Red/Green/Blue/Yellow)",
@@ -24,8 +24,8 @@ export default [
     items: [
       { name: "Pokeball (x5)", price: 500 },
       { name: "Super Potion (x2)", price: 800 },
-      { name: "Escape Rope (x1)", price: 50 }
-    ]
+      { name: "Escape Rope (x1)", price: 50 },
+    ],
   },
   {
     answer: "Doom",
@@ -37,8 +37,8 @@ export default [
       { name: "Plasma Gun", price: 400 },
       { name: "Chainsaw", price: 300 },
       { name: "BFG 9000", price: 1000 },
-      { name: "Rocket Launcher", price: 500 }
-    ]
+      { name: "Rocket Launcher", price: 500 },
+    ],
   },
   {
     answer: "Goldeneye 007",
@@ -50,8 +50,8 @@ export default [
       { name: "Golden Gun", price: 400 },
       { name: "Klobb", price: 200 },
       { name: "PP7 (Silenced)", price: 400 },
-      { name: "Watch (Laser)", price: 300 }
-    ]
+      { name: "Watch (Laser)", price: 300 },
+    ],
   },
   {
     answer: "HALO",
@@ -63,8 +63,8 @@ export default [
       { name: "Warthog", price: 900 },
       { name: "Plasma Grenade (x5)", price: 600 },
       { name: "Energy Sword (x1)", price: 200 },
-      { name: "Sniper Rifle (no scope) (x1)", price: 150 }
-    ]
+      { name: "Sniper Rifle (no scope) (x1)", price: 150 },
+    ],
   },
   {
     answer: "Super Mario Bros",
@@ -75,8 +75,8 @@ export default [
     items: [
       { name: "1-Up (x1)", price: 400 },
       { name: "Super Mushroom (x2)", price: 400 },
-      { name: "Fire Flower (x1)", price: 100 }
-    ]
+      { name: "Fire Flower (x1)", price: 100 },
+    ],
   },
   {
     answer: "Tomb Raider",
@@ -87,8 +87,8 @@ export default [
     items: [
       { name: "9mm Parabellum (x800)", price: 500 },
       { name: "Desert Eagle (x2)", price: 1200 },
-      { name: "Short Shorts (x1)", price: 50 }
-    ]
+      { name: "Short Shorts (x1)", price: 50 },
+    ],
   },
   {
     answer: "Portal",
@@ -99,8 +99,8 @@ export default [
     items: [
       { name: "Weighted Storage Cube (x1)", price: 50 },
       { name: "Companion Cube (x1)", price: 200 },
-      { name: "Cake (x0)", price: 0 }
-    ]
+      { name: "Cake (x0)", price: 0 },
+    ],
   },
   {
     answer: "Elder Scrolls V: Skyrim",
@@ -111,8 +111,8 @@ export default [
     items: [
       { name: "Cabbages (x5)", price: 50 },
       { name: "Steel Dagger (x1)", price: 100 },
-      { name: "Steel Helmet (x1)", price: 200 }
-    ]
+      { name: "Steel Helmet (x1)", price: 200 },
+    ],
   },
   {
     answer: "GTA 3",
@@ -123,8 +123,8 @@ export default [
     items: [
       { name: "Micro Uzi (x1)", price: 1000 },
       { name: "Sniper Rifle (x1)", price: 800 },
-      { name: "Body Armor (x1)", price: 2000 }
-    ]
+      { name: "Body Armor (x1)", price: 2000 },
+    ],
   },
   {
     answer: "Legend of Zelda: Ocarina of Time",
@@ -132,9 +132,11 @@ export default [
     location: "Town Marketplace, Hyrule Castle",
     date: "11/23/1998",
     currency: "₹",
-    items: [{ name: "Hylian Shield", price: 80 },
-    { name: "Deku Nuts (x5)", price: 15 },
-    { name: "Goron Tunic", price: 200 }]
+    items: [
+      { name: "Hylian Shield", price: 80 },
+      { name: "Deku Nuts (x5)", price: 15 },
+      { name: "Goron Tunic", price: 200 },
+    ],
   },
   {
     answer: "Dark Souls",
@@ -145,8 +147,8 @@ export default [
     items: [
       { name: "Humanity (x1)", price: 10000 },
       { name: "Mask of the Father (x1)", price: 8000 },
-      { name: "Estus Flask (x1)", price: 1000 }
-    ]
+      { name: "Estus Flask (x1)", price: 1000 },
+    ],
   },
   {
     answer: "Minecraft",
@@ -158,8 +160,8 @@ export default [
       { name: "Steel Pickaxe (x1)", price: 400 },
       { name: "Diamond Sword (x1)", price: 1000 },
       { name: "Redstone Block (x10)", price: 1000 },
-      { name: "Cobblestone (x64)", price: 1600 }
-    ]
+      { name: "Cobblestone (x64)", price: 1600 },
+    ],
   },
   {
     answer: "Fallout (3)",
@@ -170,8 +172,8 @@ export default [
     items: [
       { name: "Stimpaks (x5)", price: 125 },
       { name: "Laser Pistol", price: 320 },
-      { name: "RobCo Jumpsuit", price: 6 }
-    ]
+      { name: "RobCo Jumpsuit", price: 6 },
+    ],
   },
   {
     answer: "Deus Ex",
@@ -183,7 +185,7 @@ export default [
       { name: "Lockpicks (x10)", price: 100 },
       { name: "Multitool (x10)", price: 200 },
       { name: "10mm cartridges (x300)", price: 150 },
-      { name: "Thermoptic Camo (x1)", price: 1000 }
-    ]
-  }
+      { name: "Thermoptic Camo (x1)", price: 1000 },
+    ],
+  },
 ];

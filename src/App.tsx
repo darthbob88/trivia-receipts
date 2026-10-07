@@ -1,6 +1,6 @@
 import React from 'react';
 import Receipt from './Receipt';
-import receiptData from "./receiptData";
+import {receiptData} from "./receiptData";
 import html2canvas from "html2canvas";
 const App: React.FC = () => {
   const exportReceipt = () => {
