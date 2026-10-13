@@ -48,11 +48,22 @@ const App: React.FC = () => {
   };
   return (
     <div className="App">
-      <button onClick={exportReceipt}>Export receipts</button>
       <br />
       <label htmlFor="receipt-selection">Receipt to edit</label>
-      <select id="receipt-selection" value={singleReceipt.answer}>
-        {receiptData.map((receipt, index) => (
+      <select
+        id="receipt-selection"
+        value={singleReceipt.answer}
+        onChange={(event) => {
+          const selectedAnswer = event.currentTarget.value;
+          const selectedReceipt = receiptData.find(
+            (receipt) => receipt.answer === selectedAnswer,
+          );
+          if (selectedReceipt) {
+            setSingleReceipt(selectedReceipt);
+          }
+        }}
+      >
+        {receiptData.map((receipt) => (
           <option
             key={receipt.answer}
             value={receipt.answer}
@@ -169,6 +180,8 @@ const App: React.FC = () => {
           </button>
         </fieldset>
       </form>
+      <button onClick={exportReceipt}>Export receipts</button>
+
       <Receipt receipt={singleReceipt} />
     </div>
   );
